@@ -1,0 +1,38 @@
+/* TEXT COLOR */
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* BACKGROUND COLOR */
+
+.bg-grey-100 {
+  background-color: #333333;
+}
+
+
+
+
+
+/* SIZING */
+
+.w-full {
+  width: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.p-4 {
+  padding: 1em;
+}
