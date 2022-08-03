@@ -8,10 +8,14 @@
   color: #f5c79b;
 }
 
-/* FONT SIZE */
+/* FONT */
 
 .text-xs {
   font-size: 12.8px;
+}
+
+.font {
+  font-family: sans-serif;
 }
 
 /* TYPOGRAPHY */
@@ -32,13 +36,7 @@
 
 /* DISPLAY  */
 
-.flex {
-  display: flex;
-}
 
-.flex-col {
-  flex-direction: column;
-}
 
 /* SIZING */
 
@@ -73,4 +71,21 @@
 
 .relative {
   position: relative;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 425px) {
+  .d-sm-flex 
+  .flex-sm-column
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-flex
+  .flex-md-column
+}
+
+@media screen and(min-width: 1024px) {
+  .d-lg-flex
+  .flex-lg-column
 }
