@@ -1,0 +1,65 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 425px) {
+  .d-sm-flex 
+  .flex-sm-column
+
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-flex
+  .flex-md-column
+}
+
+@media screen and(min-width: 1024px) {
+  .d-lg-flex
+  .flex-lg-column
+}
+
+/* TEXT COLOR */
+
+.text-white {
+  color: #ffffff;
+}
+
+/* FONT */
+
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-none {
+  line-height: 1.1;
+}
+
+.text-6xl {
+  font-size: 60px;
+}
+
+.font {
+  font-family: ;
+}
+
+.break-words {
+  word-wrap: break-word;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-orange {
+  background-color: #e67b13;
+}
+
+/* SIZING */
+
+.w-full {
+  width: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
