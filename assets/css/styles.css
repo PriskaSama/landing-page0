@@ -4,10 +4,25 @@
   color: #ffffff;
 }
 
+.text-beige {
+  color: #f5c79b;
+}
+
+/* FONT SIZE */
+
+.text-xs {
+  font-size: 12.8px;
+}
+
+/* TYPOGRAPHY */
+
 .text-center {
   text-align: center;
 }
 
+.no-underline {
+  text-decoration: none;
+}
 
 /* BACKGROUND COLOR */
 
@@ -15,9 +30,15 @@
   background-color: #333333;
 }
 
+/* DISPLAY  */
 
+.flex {
+  display: flex;
+}
 
-
+.flex-col {
+  flex-direction: column;
+}
 
 /* SIZING */
 
@@ -29,10 +50,27 @@
   height: 5rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* SPACING */
+
 .mt-auto {
   margin-top: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .p-4 {
   padding: 1em;
+}
+
+/* LAYOUT */
+
+.relative {
+  position: relative;
 }
