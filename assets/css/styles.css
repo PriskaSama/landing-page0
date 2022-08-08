@@ -1,0 +1,41 @@
+/* BACKGROUND COLOR */
+
+.bg-grey-100 {
+  background-color: #292d33;
+}
+
+.bg-grey-200 {
+  background-color: #292a33;
+}
+
+.bg-orange {
+  background-color: #e67b13;
+}
+
+/* TEXT-COLOR */
+
+.text-white {
+  color: white;
+}
+
+
+.relative {
+  position: relative;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.bg-img-2 {
+  background-image: linear-gradient(0deg, rgba(29,34,40,0.65), rgba(29,34,40,0.65)), url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
+}
+
+.bg-position {
+  background-position: 50% 50%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
