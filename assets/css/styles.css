@@ -12,12 +12,15 @@
   background-color: #e67b13;
 }
 
+.button-orange {
+  color: #e67b13;
+}
+
 /* TEXT-COLOR */
 
 .text-white {
   color: white;
 }
-
 
 .relative {
   position: relative;
@@ -27,9 +30,10 @@
   max-width: 100%;
 }
 
-.bg-img-2 {
+.bg-img {
   background-image: linear-gradient(0deg, rgba(29,34,40,0.65), rgba(29,34,40,0.65)), url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
 }
+
 
 .bg-position {
   background-position: 50% 50%;
@@ -37,5 +41,85 @@
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+
+.opacity {
+  opacity: 0.1;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.z-0{
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.block {
+  display: block;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-3xl {
+  font-size: 30px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
