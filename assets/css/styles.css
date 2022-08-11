@@ -51,9 +51,12 @@
   background-repeat: no-repeat;
 }
 
+.opacity-80 {
+  opacity: 0.8;
+}
 
-.opacity {
-  opacity: 0.1;
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .overflow {
@@ -93,9 +96,21 @@
   margin-bottom: 2rem;
 }
 
-.my-12 {
+.mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.-mb-8 {
+  margin-bottom: -8rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
 }
 
 .p-0 {
@@ -150,7 +165,10 @@
   text-decoration: none;
 }
 
-.border {
-  border: #e67b13;
+.h-full {
+  height: 100%;
+}
 
+.w-7-12 {
+  width: 60%;
 }
