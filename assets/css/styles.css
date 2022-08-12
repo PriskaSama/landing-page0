@@ -1,3 +1,13 @@
+
+/* TEXT COLOR */
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-beige {
+  color: #f5c79b;
+
 /* BACKGROUND*/
 
 .bg-grey-100 {
@@ -34,6 +44,10 @@
 
 /* TYPOGRAPHY */
 
+
+.text-center {
+  text-align: center;
+
 .font-comfortaa {
   font-family: comfortaa;
 }
@@ -52,11 +66,40 @@
 
 .text-base {
   font-size: 16px;
+
 }
 
 .no-underline {
   text-decoration: none;
 }
+
+
+.text-xs {
+  font-size: 12.8px;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+/* BACKGROUND*/
+
+.bg-grey-100 {
+  background-color: #333333;
+}
+
+/* SIZING */
+
+.w-full {
+  width: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 
 /* TEXT-COLOR */
 
@@ -96,9 +139,30 @@
 
 .overflow {
   overflow-x: hidden;
+
 }
 
 /* SPACING */
+
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.p-4 {
+  padding: 1em;
+}
+
+/* LAYOUT */
+
+.relative {
+  position: relative;
+}
 
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -138,3 +202,4 @@
 .w-7-12 {
   width: 60%;
 }
+
