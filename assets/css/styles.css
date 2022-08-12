@@ -1,4 +1,4 @@
-/* BACKGROUND COLOR */
+/* BACKGROUND*/
 
 .bg-grey-100 {
   background-color: #292d33;
@@ -16,32 +16,9 @@
   color: #e67b13;
 }
 
-.font-comfortaa {
-  font-family: comfortaa;
-}
-
-/* TEXT-COLOR */
-
-.text-white {
-  color: white;
-}
-
-.relative {
-  position: relative;
-}
-
-.max-width {
-  max-width: 100%;
-}
-
-.height {
-  height: 100%;
-}
-
 .bg-img {
   background-image: linear-gradient(0deg, rgba(29,34,40,0.65), rgba(29,34,40,0.65)), url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
 }
-
 
 .bg-position {
   background-position: 50% 50%;
@@ -55,94 +32,10 @@
   background-repeat: no-repeat;
 }
 
-.opacity-80 {
-  opacity: 0.8;
-}
+/* TYPOGRAPHY */
 
-.opacity-20 {
-  opacity: 0.2;
-}
-
-.overflow {
-  overflow-x: hidden;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.z-0{
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.block {
-  display: block;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.pt-4{
-  padding-top: 1rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mb-8 {
-  margin-bottom: -8rem;
-}
-
-.-mt-36 {
-  margin-top: -9rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-12 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.text-center {
-  text-align: center;
+.font-comfortaa {
+  font-family: comfortaa;
 }
 
 .text-left {
@@ -161,12 +54,81 @@
   font-size: 16px;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
+/* TEXT-COLOR */
+
+.text-white {
+  color: white;
+}
+
+/* LAYOUT */
+
+.relative {
+  position: relative;
+}
+
 .max-width {
   max-width: 100%;
 }
 
-.no-underline {
-  text-decoration: none;
+.height {
+  height: 100%;
+}
+
+.z-0{
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+/* SPACING */
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.-mb-8 {
+  margin-bottom: -8rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
+}
+
+/* SIZING */
+
+.max-width {
+  max-width: 100%;
 }
 
 .h-full {
