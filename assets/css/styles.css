@@ -8,16 +8,6 @@
   color: #f5c79b;
 }
 
-/* FONT */
-
-.text-xs {
-  font-size: 12.8px;
-}
-
-.font {
-  font-family: sans-serif;
-}
-
 /* TYPOGRAPHY */
 
 .text-center {
@@ -28,15 +18,19 @@
   text-decoration: none;
 }
 
-/* BACKGROUND COLOR */
+.text-xs {
+  font-size: 12.8px;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+/* BACKGROUND*/
 
 .bg-grey-100 {
   background-color: #333333;
 }
-
-/* DISPLAY  */
-
-
 
 /* SIZING */
 
@@ -71,21 +65,4 @@
 
 .relative {
   position: relative;
-}
-
-/* RESPONSIVE */
-
-@media screen and (max-width: 425px) {
-  .d-sm-flex 
-  .flex-sm-column
-}
-
-@media screen and (min-width: 768px) {
-  .d-md-flex
-  .flex-md-column
-}
-
-@media screen and(min-width: 1024px) {
-  .d-lg-flex
-  .flex-lg-column
 }
