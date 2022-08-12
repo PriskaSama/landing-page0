@@ -6,10 +6,6 @@
 
 /* FONT */
 
-.font-normal {
-  font-weight: 400;
-}
-
 .leading-none {
   line-height: 1.1;
 }
@@ -48,10 +44,6 @@
 
 .h-20 {
   height: 5rem;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .min-h-screen {
