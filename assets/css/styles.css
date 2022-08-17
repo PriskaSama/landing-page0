@@ -10,14 +10,6 @@
 
 /* TYPOGRAPHY */
 
-.break-words {
-  word-wrap: break-word;
-}
-
-.leading-none {
-  line-height: 1.1;
-}
-
 .text-xs {
   font-size: 12.8px;
 }
@@ -42,12 +34,12 @@
   font-family: comfortaa;
 }
 
-.break-words {
-  word-wrap: break-word;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .no-underline {
@@ -117,14 +109,6 @@
 
 /* SPACING */
 
-.text-left {
-  text-align: left;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -141,30 +125,22 @@
   margin-bottom: -8rem;
 }
 
+.-mt-20 {
+  margin-top: -5rem;
+}
+
 .-mt-36 {
   margin-top: -9rem;
+}
+
+.-mt-96 {
+  margin-top: -25rem;
 }
 
 /* SIZING */
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.max-width {
-  max-width: 100%;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-7-12 {
