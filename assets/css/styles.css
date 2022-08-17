@@ -121,12 +121,8 @@
   text-align: left;
 }
 
-.mt-auto {
-  margin-top: auto;
-}
-
-.-mt- {
-  margin-top: -26rem;
+.-mt-20 {
+  margin-top: -5rem;
 }
 
 .mb-6 {
@@ -135,11 +131,6 @@
 
 .block {
   display: block;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .-mb-20 {
