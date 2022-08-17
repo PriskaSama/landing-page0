@@ -4,14 +4,34 @@
   color: #ffffff;
 }
 
-/* FONT */
+.text-beige {
+  color: #f5c79b;
+}
+
+/* TYPOGRAPHY */
+
+.break-words {
+  word-wrap: break-word;
+}
 
 .leading-none {
   line-height: 1.1;
 }
 
+.text-xs {
+  font-size: 12.8px;
+}
+
 .text-base {
   font-size: 16px;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-3xl {
+  font-size: 30px;
 }
 
 .text-6xl {
@@ -30,28 +50,52 @@
   text-align: center;
 }
 
-/* BACKGROUND COLOR */
+.no-underline {
+  text-decoration: none;
+}
+
+/* BACKGROUND */
 
 .bg-orange {
   background-color: #e67b13;
 }
 
-/* SIZING */
-
-.w-full {
-  width: 100%;
+.bg-grey-100 {
+  background-color: #333333;
 }
 
-.h-20 {
-  height: 5rem;
+.bg-grey-200 {
+  background-color: #292a33;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.button-orange {
+  color: #e67b13;
 }
+
+.bg-img {
+  background-image: linear-gradient(0deg, rgba(29,34,40,0.65), rgba(29,34,40,0.65)), url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
+}
+
+.bg-position {
+  background-position: 50% 50%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+/* LAYOUT */
 
 .opacity-20 {
   opacity: 0.2;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .z-0 {
@@ -66,10 +110,72 @@
   position: relative;
 }
 
+.overflow {
+  overflow-x: hidden;
+
+}
+
+/* SPACING */
+
 .text-left {
   text-align: left;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .-mt- {
   margin-top: -26rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.-mb-8 {
+  margin-bottom: -8rem;
+}
+
+.-mt-36 {
+  margin-top: -9rem;
+}
+
+/* SIZING */
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-7-12 {
+  width: 60%;
 }
