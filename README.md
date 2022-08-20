@@ -17,7 +17,7 @@ Une version responsive sur mobile, tablette et desktop est requise. Le code sour
 
 ## Score GT Metrix
 
-
+- 92%
 
 ## 📸 Screenshots
 
@@ -27,7 +27,7 @@ Une version responsive sur mobile, tablette et desktop est requise. Le code sour
 ## Liens vers le projet
 
 - [GitHub]()
-- [Serveur Public]()
+- [Serveur Public](https://priscad.promo-171.codeur.online/landing-page0/)
 
 ## Contact
 
@@ -67,6 +67,7 @@ A responsive version on mobile, tablet and desktop is required. The source code 
 
 ## GT Metrix score
 
+- 92%
 
 ## 📸 Screenshots
 
@@ -76,7 +77,7 @@ A responsive version on mobile, tablet and desktop is required. The source code 
 ## Project's links
 
 - [GitHub]()
-- [Serveur Public]()
+- [Serveur Public](https://priscad.promo-171.codeur.online/landing-page0/)
 
 ## Contact
 
